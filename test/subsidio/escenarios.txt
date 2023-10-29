@@ -1,0 +1,19 @@
+calculo del subsidio de vivienda
+
+escenario 1
+
+given: la solicitud de usuario
+when: el usuario tiene vivienda
+then: se rechaza la solicitud
+
+escenario 2
+
+given: solicitud del usuario
+when: estrato: <= 2 valorVivienda: < 60 millones
+then: acepta solicitud y subsidio de 40 millones
+
+escenario 3
+
+given: solicitud de usuario
+when: estrato > 2 valorVivienda < 60 millones
+then : se acepta la solicitud y subsidio 4 millones
