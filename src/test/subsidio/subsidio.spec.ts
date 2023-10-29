@@ -2,9 +2,9 @@ import request from "supertest";
 import { assert, expect } from "chai";
 import { solicitud } from "solicitud";
 import { respuesta } from "respuesta_solicitud";
-//import * from "../../src/solicitud"
 
-import {calcularSubsidio} from "../../src/subsidio";
+
+import {calcularSubsidio} from "../../subsidio";
 //const app = createServer();
 
 describe("valida el calculo del subsidio", function(){
