@@ -9,6 +9,7 @@ export  function calcularSubsidio(sol:solicitud):respuesta{
     if (!sol.tiene_vivienda){
 
         if (sol.valor_vivienda<60000000){
+            
             if (sol.estrato<=2 ){
                 r.aprobado = true;
                 r.monto =40000000;
