@@ -71,8 +71,7 @@ nbproject/
 *.iml
 *.ipr
 
-#  para evitar el error 404 Not Found: @ngtools/json-schema@1.1.0
-package-lock.json
+
 
 #sonar scanner result
 .scannerwork/
