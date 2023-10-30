@@ -1,4 +1,5 @@
 export interface solicitud{
+    
     nombre: string,
     cedula: string,
     estrato: number,
